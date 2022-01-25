@@ -14,3 +14,14 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+shopping_list_1 = ["beer", "tacos"]
+shopping_list_2 = ["kale", "beer", "vitamins", "berries", "twigs"]
+
+combined_list_with_dupes = shopping_list_1 + shopping_list_2
+combined_list = combined_list_with_dupes.uniq
+
+puts combined_list_with_dupes.inspect
+puts combined_list.inspect
+
+
